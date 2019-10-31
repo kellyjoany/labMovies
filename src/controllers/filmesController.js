@@ -3,7 +3,7 @@ const fs = require('fs');
 
 exports.getFilms = (req, res) => {
   console.log(req.url)
-  res.status(200).send(filmes)
+  res.status(200).send(movies)
 }
 
 exports.getFilmsByDirector = (req, res) => {
